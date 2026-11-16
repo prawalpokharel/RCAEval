@@ -51,10 +51,12 @@ if is_modern_py():
         "fci_pagerank": ["fci_pagerank"],
         "ges_pagerank": ["ges_pagerank"],
         "granger_pagerank": ["granger_pagerank"],
+        "granger_cei": ["granger_cei", "granger_cei_pagerank"],
         "lingam_pagerank": ["lingam_pagerank", "micro_diag"],
         "microcause": ["microcause"],
         "microrank": ["microrank"],
         "pc_pagerank": ["cmlp_pagerank", "ntlr_pagerank", "pc_pagerank"],
+        "pc_cei": ["pc_cei", "pc_cei_pagerank"],
         "pc_randomwalk": [
             "fci_randomwalk",
             "granger_randomwalk",
